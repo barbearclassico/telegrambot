@@ -1,5 +1,5 @@
 <?php
-	$tk = 'TGBOTPASSWORD';
+	$tk = 'BCBOTPASSWORD';
 	$url = 'https://api.telegram.org/bot'.$tk.'/';
 	$chanID = '@barbearclassico';
 

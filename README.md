@@ -6,7 +6,7 @@ Preflight
 ---------
 
     . "$HOME/.martim_moniz" ;  echo $tgbotpass
-    sed -i "s/TGBOTPASSWORD/$tgbotpass/g" tg.php 
+    sed -i "s/BCBOTPASSWORD/$bcbotpass/g" tg.php 
 
 
 Run
