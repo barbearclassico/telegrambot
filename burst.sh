@@ -1,7 +1,7 @@
 #!/bin/sh
 
 rm -f pos
-mv -v queue oldqueue
+cat queue >> oldqueue
 sh  photoselector/lsImages $(./feedqueue.sh) > newqueue
 cat newqueue | grep -vf oldqueue > queue
 
