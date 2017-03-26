@@ -1,0 +1,3 @@
+[submodule "photoselector"]
+	path = photoselector
+	url = github.com:barbearclassico/photoselector
